@@ -10,9 +10,9 @@ void main() {
 //creating class
 class Person {
   //creating instance variables
-  String name;
-  String gender;
-  int age;
+  late String name;
+  late String gender;
+  late int age;
 //instance method
   walking() => print("$name is walking");
   talking() => print("$name is talking");
